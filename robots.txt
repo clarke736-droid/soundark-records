@@ -1,0 +1,5 @@
+# SEO: Production domain configured as www.soundarkrecords.org.
+User-agent: *
+Allow: /
+
+Sitemap: https://www.soundarkrecords.org/sitemap.xml
