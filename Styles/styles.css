@@ -75,11 +75,17 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.instagram-link {
+.social-links {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-left: auto;
+}
+
+.social-link {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-left: auto;
     opacity: 0.88;
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
@@ -91,8 +97,14 @@ nav ul li a:hover {
     border-radius: 7px;
 }
 
-.instagram-link:hover,
-.instagram-link:focus-visible {
+.tiktok-link svg {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.social-link:hover,
+.social-link:focus-visible {
     opacity: 1;
     transform: scale(1.08);
 }
@@ -142,7 +154,7 @@ nav ul li a:hover {
         grid-template-columns: 1fr auto;
         grid-template-areas:
             "brand brand"
-            "navigation instagram";
+            "navigation socials";
         row-gap: 0.5rem;
     }
 
@@ -169,9 +181,8 @@ nav ul li a:hover {
         flex-wrap: wrap;
     }
 
-    .instagram-link {
-        grid-area: instagram;
-        grid-column: 1 / -1;
+    .social-links {
+        grid-area: socials;
         justify-self: end;
         margin-left: 0;
         margin-right: 0.5rem;
