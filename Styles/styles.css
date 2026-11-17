@@ -99,7 +99,8 @@ nav ul li a:hover {
 
 .tiktok-link svg,
 .youtube-link svg,
-.spotify-link svg {
+.spotify-link svg,
+.apple-music-link svg {
     width: 30px;
     height: 30px;
     display: block;
