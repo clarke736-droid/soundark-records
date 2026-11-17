@@ -97,7 +97,8 @@ nav ul li a:hover {
     border-radius: 7px;
 }
 
-.tiktok-link svg {
+.tiktok-link svg,
+.youtube-link svg {
     width: 30px;
     height: 30px;
     display: block;
