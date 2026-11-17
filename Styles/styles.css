@@ -159,6 +159,13 @@ nav ul li a:hover {
         row-gap: 0.5rem;
     }
 
+    .panic-badger-header {
+        grid-template-areas:
+            "brand brand"
+            "navigation navigation"
+            "socials socials";
+    }
+
     .brand {
         grid-area: brand;
         justify-content: center;
@@ -187,6 +194,11 @@ nav ul li a:hover {
         justify-self: end;
         margin-left: 0;
         margin-right: 0.5rem;
+    }
+
+    .panic-badger-header .social-links {
+        justify-self: center;
+        margin-right: 0;
     }
 
     .dropdown-menu {
