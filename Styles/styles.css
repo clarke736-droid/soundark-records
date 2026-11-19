@@ -163,7 +163,7 @@ nav ul li a:hover {
         row-gap: 0.5rem;
     }
 
-    .panic-badger-header {
+    .artist-page-header {
         grid-template-areas:
             "brand brand"
             "navigation navigation"
@@ -200,7 +200,7 @@ nav ul li a:hover {
         margin-right: 0.5rem;
     }
 
-    .panic-badger-header .social-links {
+    .artist-page-header .social-links {
         justify-self: center;
         margin-right: 0;
     }
